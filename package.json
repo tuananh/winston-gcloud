@@ -1,0 +1,32 @@
+{
+  "name": "winston-gcloud",
+  "version": "1.0.0",
+  "description": "Google Cloud Logging transport for winston",
+  "main": "lib/gcloud.js",
+  "dependencies": {
+    "@google-cloud/logging": "0.5.0",
+    "better-queue": "3.8.3"
+  },
+  "devDependencies": {
+    "winston": "2.1"
+  },
+  "keywords": [
+    "winston",
+    "logging",
+    "google cloud logging",
+    "transport"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuananh/winston-gcloud.git"
+  },
+  "author": "Tuan Anh Tran <me@tuananh.org> (https://tuananh.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuananh/winston-gcloud/issues"
+  },
+  "homepage": "https://github.com/captiz/winston-gcloud#readme"
+}
