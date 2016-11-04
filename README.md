@@ -37,6 +37,8 @@ winston.error('test', {msg: Math.random()})
 winston.error('test', {msg: Math.random()})
 ```
 
+`winston-gcloud` use [better-queue](https://github.com/diamondio/better-queue) for queue management.
+
 ## License
 
 MIT © [Tuan Anh Tran](https://tuananh.org)
